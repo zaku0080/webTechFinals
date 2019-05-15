@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.5
+-- version 4.8.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 04, 2019 at 05:48 PM
--- Server version: 10.1.38-MariaDB
--- PHP Version: 7.3.4
+-- Generation Time: May 15, 2019 at 04:28 PM
+-- Server version: 10.1.32-MariaDB
+-- PHP Version: 7.2.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -195,25 +195,25 @@ INSERT INTO `html_ident` (`no`, `question`, `answer`, `u_answer`) VALUES
 (11, 'An HTML 4.01 that is deprecated', 'STRICT', ''),
 (12, 'An HTML 4.01 that uses frames', 'FRAMESET', ''),
 (13, 'Version of HTML that arose from the effrost to evolve HTML.', 'HTML5', ''),
-(14, 'Some of the elements within the <head> element are <title> and <base>. Give another element inside the the <head element.', '<META>', ''),
-(15, 'Give an example of name elements of grouping elements. <div> is an example. * include \"<>\" to your answer.', '<SPAN>', ''),
-(16, 'Give an example of name elements for headings. Here area some examples <H1> <H2> <H3> <H4> <H5>. *include \"<>\" to your answer. ', '<H6>', ''),
-(17, '<P> <BR> are name elements for Paragraph, line break, or horizontal. Give another. *include \"<>\" to your answer.', '<HR>', ''),
-(18, '<UL> <OL> <LI> <DL> <DT> <DD> <DIR> are elements for list. Give another example. *include \"<>\" to your answer.', '<MENU>', ''),
-(19, '<TABLE> <TH> <TR> <TD> <THEAD> <TFOOT> <TBODY> <COLGROUP> are example for tables. Give another. *include \"<>\" to your answer.', '<COL>', ''),
-(20, '<STRONG> <DFN> <CODE> <SAMP> <KBD> <VAR> <CITE> <ABBR> <ACRONYM> are elements for Phrase elements. Give another.', '<EM>', ''),
-(21, 'Give an example of name element of name elements for Quotations. <Blockqoute> is an examples give another. *include \"<>\" to your answer', '<Q> ', ''),
-(22, 'Give an example of name elements for subscripts and superscripts. <sub> is an example.', '<SUB>', ''),
-(23, 'Give an example of name elements for preformatted texts.', '<PRE>', ''),
-(24, '<TT> <I> <B> <BIG> <SMALL> <STRIKE> <S> <U> <FONT> <BASEFONT> are examples of elements for font styles and alignments. Give another. *include \"<>\" to your answer.', '<CENTER>', ''),
-(25, 'Give an example of name elements for document changes. An example is <ins> *include \"<>\" to your answer', '<DEL>', ''),
-(26, '<object>, <img>, <param> are examples of name elements for object, image and applet. Give another one. *include \"<>\" to your answer.', '<APPLET>', ''),
-(27, 'Give an example of name elements for scripts. An example is <script> *include \"<>\" in you answer.', '<NOSCRIPT>', ''),
-(28, 'Give an example of name elements for miscellaneous. An example is <address> *include \"<>\" to your answer', '<BDO>', ''),
+(14, 'Some of the elements within the \'<\'head\'>\' element are \'<\'title\'>\' and \'<\'base\'>\'. Give another element inside the the \'<\'head\'>\' element.', 'META', ''),
+(15, 'Give an example of name elements of grouping elements. \'<\'div\'>\' is an example.', 'SPAN', ''),
+(16, 'Give an example of name elements for headings. Here area some examples \'<\'H1\'>\' \'<\'H2\'>\' \'<\'H3\'>\' \'<\'H4\'>\' \'<\'H5\'>\'. ', 'H6', ''),
+(17, '\'<\'P\'>\' \'<\'BR\'>\' are name elements for Paragraph, line break, or horizontal. Give another. ', 'HR', ''),
+(18, '\'<\'UL\'>\' \'<\'OL\'>\' \'<\'LI\'>\' \'<\'DL\'>\' \'<\'DT\'>\' \'<\'DD\'>\' \'<\'DIR\'>\' are elements for list. Give another example. ', 'MENU', ''),
+(19, '\'<\'TABLE\'>\' \'<\'TH\'>\' \'<\'TR\'>\' \'<\'TD\'>\' \'<\'THEAD\'>\' \'<\'TFOOT\'>\' \'<\'TBODY\'>\' \'<\'COLGROUP\'>\' are example for tables. Give another. ', 'COL', ''),
+(20, '\'<\'STRONG\'>\' \'<\'DFN\'>\' \'<\'CODE\'>\' \'<\'SAMP\'>\' \'<\'KBD\'>\' \'<\'VAR\'>\' \'<\'CITE\'>\' \'<\'ABBR\'>\' \'<\'ACRONYM\'>\' are elements for Phrase elements. Give another.', 'EM', ''),
+(21, 'Give an example of name element of name elements for Quotations. \'<\'Blockqoute\'>\' is an examples give another. ', 'Q', ''),
+(22, 'Give an example of name elements for subscripts and superscripts. \'<\'sub\'>\' is an example.', 'SUB', ''),
+(23, 'Give an example of name elements for preformatted texts.', 'PRE', ''),
+(24, '\'<\'TT\'>\' \'<\'I\'>\' \'<\'B\'>\' \'<\'BIG\'>\' \'<\'SMALL\'>\' \'<\'STRIKE\'>\' \'<\'S\'>\' \'<\'U\'>\' \'<\'FONT\'>\' \'<\'BASEFONT\'>\' are examples of elements for font styles and alignments. Give another. ', 'CENTER', ''),
+(25, 'Give an example of name elements for document changes. An example is \'<\'ins\'>\' ', 'DEL', ''),
+(26, '\'<\'object\'>\', \'<\'img\'>\', \'<\'param\'>\' are examples of name elements for object, image and applet. Give another one. ', 'APPLET', ''),
+(27, 'Give an example of name elements for scripts. An example is \'<\'script\'>\' ', 'NOSCRIPT', ''),
+(28, 'Give an example of name elements for miscellaneous. An example is \'<\'address\'>\' ', 'BDO', ''),
 (29, 'Represents \"larger\" document structure and may contain inline & other block level elements.', 'BLOCK-LEVEL ELEMENTS', ''),
 (30, 'It contains only date and other inline elements.', 'INLINE ELEMENTS', ''),
-(31, 'Two elements of XHTML.\r\n\r\nThere are two elements of XTHML. Block-level is one. What is the other element?', 'INLINE', ''),
-(32, '<id>, <class>, <title>, and <alt> are examples of XHTML elements. Give another example. *include \"<>\" to your answer', '<LANG>', ''),
+(31, 'Two elements of XHTML. There are two elements of XTHML. Block-level is one. What is the other element?', 'INLINE', ''),
+(32, '\'<\'id\'>\', \'<\'class\'>\', \'<\'title\'>\', and \'<\'alt\'>\' are examples of XHTML elements. Give another example. ', 'LANG', ''),
 (33, '<> is an example of a character entity reference. Give another.', '&', ''),
 (34, 'Allows an author to put style sheet rules in the head of the document.', 'STYLE', ''),
 (35, 'May load style sheets selectively', 'USER AGENT STYLE', ''),
@@ -490,7 +490,7 @@ ALTER TABLE `http_mul`
 -- AUTO_INCREMENT for table `css_ident`
 --
 ALTER TABLE `css_ident`
-  MODIFY `no` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=52;
+  MODIFY `no` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
 
 --
 -- AUTO_INCREMENT for table `css_mul`
